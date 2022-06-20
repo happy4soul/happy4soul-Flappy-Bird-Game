@@ -1,0 +1,61 @@
+body{
+  margin-left:0;
+  background-color: black;
+  overflow-y: hidden;
+}
+.game-container{
+  width: 500px;
+  height: 730px;
+  position: absolute;
+margin-left:0;
+}
+
+
+.sky{
+  background-color: skyblue;
+  width: 500px;
+  height: 580px;
+  position: absolute;
+  margin-left:0;
+
+}
+
+.ground{
+  background-color: brown;
+  width: 500px;
+  height: 150px;
+  position: absolute;
+  top: 580px;
+z-index: +1;
+margin-left:0;
+
+}
+
+.bird{
+  background-color: black;
+  position: absolute;
+  width: 60px;
+  height: 45px;
+}
+
+.obstacle{
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT15inkHdiBP0xSb1yDPwEqxffI9UfmH8GUdg&usqp=CAU);
+  width: 60px;
+  height: 300px;
+  position: absolute;
+}
+
+.topObstacle{
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT15inkHdiBP0xSb1yDPwEqxffI9UfmH8GUdg&usqp=CAU);
+  transform: rotate(180deg);
+  width: 60px;
+  height: 300px;
+  position: absolute;
+
+}
+.h1{
+  font-size: 3rem;
+  font-family: 'Montserrat', serif;
+  font-weight: bold;
+  color: white;
+}
